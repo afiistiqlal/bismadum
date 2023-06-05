@@ -1,16 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "jenis_magang": [
     { "id": 1, "nama": "Tutor Sebaya" },
     { "id": 2, "nama": "Asisten Praktikum" },
@@ -32,387 +20,1115 @@
   ],
   "mahasiswa": [
     {
-      "id": 1,
-      "nama": "Bayu Wicaksono",
-      "nomor_induk": 103122120,
-      "id_program_studi": 1
+      "id": 8136,
+      "nomor_induk": "104222032",
+      "nama": "MUHAMMAD RAIHAN FADHILLAH",
+      "id_institusi": 16,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8678,
+      "nomor_induk": "105222040",
+      "nama": "RAIHAN AKIRA RAHMAPUTRA",
+      "id_institusi": 19,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8809,
+      "nomor_induk": "193222003",
+      "nama": "LEO LUCAS LEE STOCK",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8810,
+      "nomor_induk": "193222004",
+      "nama": "PERRINE SALOME OLIVIER",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8812,
+      "nomor_induk": "193222006",
+      "nama": "RAKHIMZHANOV DANIYAL",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8808,
+      "nomor_induk": "193222002",
+      "nama": "LOUIS JEAN GREGOIRE VINCENT",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8811,
+      "nomor_induk": "193222005",
+      "nama": "VICTOR JEAN XAVIER VERGLAS",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8813,
+      "nomor_induk": "193222007",
+      "nama": "ZHUMABEK AZIZ",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8434,
+      "nomor_induk": "101122031",
+      "nama": "MUHAMMAD HAFIZ RESPATI",
+      "id_institusi": 3,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8423,
+      "nomor_induk": "101322134",
+      "nama": "KEIRA ANANDA QALBUNISSA RAHIM",
+      "id_institusi": 5,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8744,
+      "nomor_induk": "102122035",
+      "nama": "ALEXANDRO GILANG SANTOSO",
+      "id_institusi": 7,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8426,
+      "nomor_induk": "101122030",
+      "nama": "SIMPLISIUS ILE SUKUN",
+      "id_institusi": 3,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8063,
+      "nomor_induk": "102322044",
+      "nama": "FATIH ARIEF HAKIM B HAZAMI",
+      "id_institusi": 9,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 7874,
+      "nomor_induk": "101222002",
+      "nama": "AMELIA PUTRI",
+      "id_institusi": 4,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8807,
+      "nomor_induk": "193222001",
+      "nama": "LORRAINE JEANNE HELENE GAITEY",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8525,
+      "nomor_induk": "103122039",
+      "nama": "SHAKIRA FITRA SHAUMI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8653,
+      "nomor_induk": "106222043",
+      "nama": "EDOMORA HESEKIEL SIAHAAN",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8656,
+      "nomor_induk": "103122082",
+      "nama": "AHMAD SYAUQI HAFINAWA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8591,
+      "nomor_induk": "106122034",
+      "nama": "AUDIVA MARSYA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8575,
+      "nomor_induk": "106222019",
+      "nama": "KINAYAH WIKA SARI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8633,
+      "nomor_induk": "103222015",
+      "nama": "MUHAMMAD FAKHRI AZMI",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8775,
+      "nomor_induk": "103122099",
+      "nama": "REISYA HUMAIRA FIRDAUS",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8623,
+      "nomor_induk": "106122044",
+      "nama": "SHAFY RAMADHAN SUNATRIO",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8626,
+      "nomor_induk": "103122072",
+      "nama": "RAISA SYAHRANI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8636,
+      "nomor_induk": "103122076",
+      "nama": "ZINEDINE YASID ZIDANE",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8570,
+      "nomor_induk": "106222015",
+      "nama": "EVIFANIA SURAT NAREK BADAR",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8770,
+      "nomor_induk": "106122057",
+      "nama": "ALIF FATULLAH SMENEP",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8649,
+      "nomor_induk": "103122080",
+      "nama": "STACIA VALERICA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8531,
+      "nomor_induk": "106122014",
+      "nama": "ADE AMALYA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8771,
+      "nomor_induk": "106122058",
+      "nama": "DWIPA ADI SAPUTRA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8603,
+      "nomor_induk": "106222033",
+      "nama": "ACHMAD BAYHAQI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8778,
+      "nomor_induk": "103122100",
+      "nama": "GABRIEL NOVERO",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8581,
+      "nomor_induk": "103122060",
+      "nama": "TASHA RIFKA MUSTIKA SARI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8562,
+      "nomor_induk": "103122056",
+      "nama": "RAYHAN ANDRI WIDIANSYAH",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8595,
+      "nomor_induk": "106222027",
+      "nama": "ERIKA ADRIANI NOVITA",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8609,
+      "nomor_induk": "106122038",
+      "nama": "SABILA PUTRI SUTRIJADI",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8665,
+      "nomor_induk": "103222023",
+      "nama": "TERESA CHAILA GLORIA GESI",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8556,
+      "nomor_induk": "106122025",
+      "nama": "FRISKY DIANISBI PUTRI",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8582,
+      "nomor_induk": "106222022",
+      "nama": "PINKAN ATSILLYA CANEVI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8514,
+      "nomor_induk": "103122030",
+      "nama": "MAULANA ANNABIL MUSAFA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8524,
+      "nomor_induk": "103122038",
+      "nama": "RADEN AQSHAL ILHAM PRANATA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8606,
+      "nomor_induk": "103122064",
+      "nama": "AJENG SETIA WATI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8516,
+      "nomor_induk": "103122032",
+      "nama": "RIVALDI DWI PUTRA Y. HUSAIN",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8587,
+      "nomor_induk": "106222023",
+      "nama": "KHAIFA FIRIAN KOSMAN",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8777,
+      "nomor_induk": "103222034",
+      "nama": "FARRA HADYA HASRUL",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8585,
+      "nomor_induk": "106122031",
+      "nama": "LISA SAFIRA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8617,
+      "nomor_induk": "106122042",
+      "nama": "IMTIAZ AHMAD",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8613,
+      "nomor_induk": "103122066",
+      "nama": "ADITYA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8542,
+      "nomor_induk": "106122019",
+      "nama": "THEODORIKUS SINAWIL NDERAS",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8624,
+      "nomor_induk": "106122045",
+      "nama": "CHRISTIN ABIGAIL",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8573,
+      "nomor_induk": "106222017",
+      "nama": "AUDREY ANGELICA VALENT",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8577,
+      "nomor_induk": "106222020",
+      "nama": "MISYEL ALKAUTSAR PUTRI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8635,
+      "nomor_induk": "106122046",
+      "nama": "MUHAMMAD ALFARIZZI LEONARD",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8505,
+      "nomor_induk": "103122024",
+      "nama": "MIFTAH CAHYA FITRAH",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8643,
+      "nomor_induk": "103122078",
+      "nama": "SANDRA VALERIZA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8490,
+      "nomor_induk": "103122011",
+      "nama": "ALFA FAIZ FAIRUZ",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8622,
+      "nomor_induk": "106122043",
+      "nama": "ELNATHAN KARVARIS GINTING",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8632,
+      "nomor_induk": "106222038",
+      "nama": "AURELIA HAVILAH AMALIA M.",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8553,
+      "nomor_induk": "103122053",
+      "nama": "AISYAH LUCKY ANGELITA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8508,
+      "nomor_induk": "103122026",
+      "nama": "ROVER CLAURIDHO",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8519,
+      "nomor_induk": "103122034",
+      "nama": "VERDA GARNETA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8546,
+      "nomor_induk": "103122049",
+      "nama": "AMANDA BEREMA TARIGAN",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8559,
+      "nomor_induk": "103122054",
+      "nama": "NUR FATHIMAH MUTIARA DEWI FAJARSARI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8630,
+      "nomor_induk": "103122074",
+      "nama": "YUNITA AMALIASARI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8594,
+      "nomor_induk": "103222012",
+      "nama": "KUMALA ANINDYA PAKERTI",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8604,
+      "nomor_induk": "106222034",
+      "nama": "DANIELA LORENZIA SARAGIH",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8652,
+      "nomor_induk": "103222019",
+      "nama": "GASTIADIRIZAL ABHISEKA FAQIH",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8563,
+      "nomor_induk": "103122057",
+      "nama": "BISMA ABDILLAH",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8605,
+      "nomor_induk": "106122036",
+      "nama": "NABIIHAN CAHYADI WINASFI",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8590,
+      "nomor_induk": "106222024",
+      "nama": "AURA LOURENZ PRICILLIA",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8539,
+      "nomor_induk": "103122046",
+      "nama": "DIVA MAHARANI PUSPITA",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8781,
+      "nomor_induk": "106122059",
+      "nama": "LADISA ANGELINA MANKIN",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8608,
+      "nomor_induk": "106122037",
+      "nama": "JOVAN EKA PUTRA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8499,
+      "nomor_induk": "103122019",
+      "nama": "FAREL SERAFIN",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8663,
+      "nomor_induk": "103122085",
+      "nama": "GABRYELLA TIURMA PANJAITAN",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8769,
+      "nomor_induk": "103222032",
+      "nama": "NUR DITA MAHARANI",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8495,
+      "nomor_induk": "106122011",
+      "nama": "MUHAMMAD ANANTA GLENDPUTRA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8541,
+      "nomor_induk": "103122047",
+      "nama": "MUTIA ATIKAH ARYANTO",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8597,
+      "nomor_induk": "106222029",
+      "nama": "SAFIYA NUR MAULIDA",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8650,
+      "nomor_induk": "103222017",
+      "nama": "TENGKU NASRULLAH",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8654,
+      "nomor_induk": "103122081",
+      "nama": "ANJU CORNELIUS ALVANDO SIMANGUNSONG",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8602,
+      "nomor_induk": "103122063",
+      "nama": "NABILAH AULIA ARIEF",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8655,
+      "nomor_induk": "103222020",
+      "nama": "TYO BUCKY ZAKARIA",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8551,
+      "nomor_induk": "106122023",
+      "nama": "HELMI FAWWAZ",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8639,
+      "nomor_induk": "106222039",
+      "nama": "ELFARA AGHISNA PUTRI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8697,
+      "nomor_induk": "106222047",
+      "nama": "FAZANIAH NUR ASIZAH SAFITRI",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8528,
+      "nomor_induk": "106222007",
+      "nama": "YESHA RAFA SYAIDINA",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8742,
+      "nomor_induk": "106222048",
+      "nama": "SALWA SYAFA CHOIRUNNISSA GUNAWAN",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8520,
+      "nomor_induk": "106122013",
+      "nama": "I PUTU ARYA SHIVA RADITYA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8558,
+      "nomor_induk": "106222011",
+      "nama": "VENNA ASYERA ATALIA WALEWANGKO",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8615,
+      "nomor_induk": "106222036",
+      "nama": "KATYA PUTRI CHAIRUNNISA",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8634,
+      "nomor_induk": "103222016",
+      "nama": "ARDINA CHIKA MARAKANTI",
+      "id_institusi": 13,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8661,
+      "nomor_induk": "103122083",
+      "nama": "JOHANNA KRISTINA OMEGA HUTAURUK",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8599,
+      "nomor_induk": "106222031",
+      "nama": "RAIHAN RAHADYAN",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8485,
+      "nomor_induk": "103122010",
+      "nama": "FANI SATRIA RAMADHAN NURMADJID",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8646,
+      "nomor_induk": "106122049",
+      "nama": "ARFAN RAFFI RADITYA",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8488,
+      "nomor_induk": "106222004",
+      "nama": "FATIH ALFAROOK",
+      "id_institusi": 22,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8589,
+      "nomor_induk": "106122033",
+      "nama": "GLADYS RISQA VIRATAMI",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8611,
+      "nomor_induk": "106122039",
+      "nama": "NANDA TASYA RIZKIE EKAPUTRI",
+      "id_institusi": 21,
+      "tahun_masuk": 2022
+    },
+    {
+      "id": 8503,
+      "nomor_induk": "103122022",
+      "nama": "SUKMA ANGGRAINI CEMPAKA SARI",
+      "id_institusi": 12,
+      "tahun_masuk": 2022
     }
   ],
   "tmst_institusi": [
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": null,
-      "Flag Aktif": true,
-      "ID Jenis Institusi": null,
-      "ID Parent Institusi": null,
-      "ID Program Pendidikan": null,
-      "Kode Institusi": "WRAM",
-      "ID Periode Akademik": null,
-      "Status Akreditasi": null,
-      "ID Pejabat": null,
-      "ID": 23,
-      "Nama En": null,
-      "Nama": "Akademik dan Kemahasiswaan"
+      "id": 1,
+      "kode_institusi": "UP",
+      "nama": "Universitas Pertamina",
+      "nama_singkat": "UP",
+      "id_parent_institusi": null
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": null,
-      "Flag Aktif": true,
-      "ID Jenis Institusi": null,
-      "ID Parent Institusi": null,
-      "ID Program Pendidikan": null,
-      "Kode Institusi": "KSDO",
-      "ID Periode Akademik": null,
-      "Status Akreditasi": null,
-      "ID Pejabat": null,
-      "ID": 24,
-      "Nama En": null,
-      "Nama": "Keuangan dan Sumber Daya Organisasi"
+      "id": 2,
+      "kode_institusi": "01",
+      "nama": "Fakultas Teknologi Eksplorasi dan Produksi",
+      "nama_singkat": "FTEP",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": null,
-      "Flag Aktif": true,
-      "ID Jenis Institusi": null,
-      "ID Parent Institusi": null,
-      "ID Program Pendidikan": null,
-      "Kode Institusi": "KPPM",
-      "ID Periode Akademik": null,
-      "Status Akreditasi": null,
-      "ID Pejabat": null,
-      "ID": 25,
-      "Nama En": null,
-      "Nama": "Kemitraan Penelitian dan Pengabdian Masyarakat"
+      "id": 3,
+      "kode_institusi": "011",
+      "nama": "Teknik Geofisika",
+      "nama_singkat": "GP",
+      "id_parent_institusi": 2
     },
     {
-      "ID Kelompok Institusi": 2,
-      "Nama Singkat": "MN",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 11,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "031",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 213,
-      "ID": 12,
-      "Nama En": "Management",
-      "Nama": "Manajemen"
+      "id": 4,
+      "kode_institusi": "012",
+      "nama": "Teknik Geologi",
+      "nama_singkat": "GL",
+      "id_parent_institusi": 2
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FTEP",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "01",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 128,
-      "ID": 2,
-      "Nama En": "Faculty of Exploration and Production Technology",
-      "Nama": "Fakultas Teknologi Eksplorasi dan Produksi"
+      "id": 5,
+      "kode_institusi": "013",
+      "nama": "Teknik Perminyakan",
+      "nama_singkat": "PE",
+      "id_parent_institusi": 2
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FTI",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "02",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 91,
-      "ID": 6,
-      "Nama En": "Faculty of Industrial Technology",
-      "Nama": "Fakultas Teknologi Industri"
+      "id": 6,
+      "kode_institusi": "02",
+      "nama": "Fakultas Teknologi Industri",
+      "nama_singkat": "FTI",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FEB",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "03",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 180,
-      "ID": 11,
-      "Nama En": "Faculty of Economics and Business",
-      "Nama": "Fakultas Ekonomi dan Bisnis"
+      "id": 7,
+      "kode_institusi": "021",
+      "nama": "Teknik Elektro",
+      "nama_singkat": "EE",
+      "id_parent_institusi": 6
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FPI",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "04",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 91,
-      "ID": 14,
-      "Nama En": "Faculty of Infrastructure Planning",
-      "Nama": "Fakultas Perencanaan Infrastruktur"
+      "id": 8,
+      "kode_institusi": "022",
+      "nama": "Teknik Mesin",
+      "nama_singkat": "ME",
+      "id_parent_institusi": 6
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FSK",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "05",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 128,
-      "ID": 17,
-      "Nama En": "Faculty of Science and Computer Science",
-      "Nama": "Fakultas Sains dan Ilmu Komputer"
+      "id": 9,
+      "kode_institusi": "023",
+      "nama": "Teknik Kimia",
+      "nama_singkat": "CE",
+      "id_parent_institusi": 6
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "FKD",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 1,
-      "ID Parent Institusi": 1,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "06",
-      "ID Periode Akademik": 28,
-      "Status Akreditasi": null,
-      "ID Pejabat": 180,
-      "ID": 20,
-      "Nama En": "Faculty of Communication and Diplomacy ",
-      "Nama": "Fakultas Komunikasi dan Diplomasi"
+      "id": 10,
+      "kode_institusi": "024",
+      "nama": "Teknik Logistik",
+      "nama_singkat": "LG",
+      "id_parent_institusi": 6
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "PE",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 2,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "013",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 84,
-      "ID": 5,
-      "Nama En": "Petroleum Engineering",
-      "Nama": "Teknik Perminyakan"
+      "id": 11,
+      "kode_institusi": "03",
+      "nama": "Fakultas Ekonomi dan Bisnis",
+      "nama_singkat": "FEB",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "CH",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 17,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "051",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 345,
-      "ID": 18,
-      "Nama En": "Chemistry",
-      "Nama": "Kimia"
+      "id": 12,
+      "kode_institusi": "031",
+      "nama": "Manajemen",
+      "nama_singkat": "MN",
+      "id_parent_institusi": 11
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "GL",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 2,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "012",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 313,
-      "ID": 4,
-      "Nama En": "Geological Engineering",
-      "Nama": "Teknik Geologi"
+      "id": 13,
+      "kode_institusi": "032",
+      "nama": "Ekonomi",
+      "nama_singkat": "EC",
+      "id_parent_institusi": 11
     },
     {
-      "ID Kelompok Institusi": 2,
-      "Nama Singkat": "IR",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 20,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "062",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 38,
-      "ID": 22,
-      "Nama En": "International Relations",
-      "Nama": "Hubungan Internasional"
+      "id": 14,
+      "kode_institusi": "04",
+      "nama": "Fakultas Perencanaan Infrastruktur",
+      "nama_singkat": "FPI",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": 2,
-      "Nama Singkat": "EC",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 11,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "032",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 396,
-      "ID": 13,
-      "Nama En": "Economics",
-      "Nama": "Ekonomi"
+      "id": 15,
+      "kode_institusi": "041",
+      "nama": "Teknik Sipil",
+      "nama_singkat": "CV",
+      "id_parent_institusi": 14
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "ME",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 6,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "022",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 137,
-      "ID": 8,
-      "Nama En": "Mechanical Engineering",
-      "Nama": "Teknik Mesin"
+      "id": 16,
+      "kode_institusi": "042",
+      "nama": "Teknik Lingkungan",
+      "nama_singkat": "EV",
+      "id_parent_institusi": 14
     },
     {
-      "ID Kelompok Institusi": null,
-      "Nama Singkat": "UP",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 4,
-      "ID Parent Institusi": null,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "UP",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 481,
-      "ID": 1,
-      "Nama En": "Pertamina University",
-      "Nama": "Universitas Pertamina"
+      "id": 17,
+      "kode_institusi": "05",
+      "nama": "Fakultas Sains dan Ilmu Komputer",
+      "nama_singkat": "FSK",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "EE",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 6,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "021",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 311,
-      "ID": 7,
-      "Nama En": "Electrical Engineering",
-      "Nama": "Teknik Elektro"
+      "id": 18,
+      "kode_institusi": "051",
+      "nama": "Kimia",
+      "nama_singkat": "CH",
+      "id_parent_institusi": 17
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "CS",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 17,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "052",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 234,
-      "ID": 19,
-      "Nama En": "Computer Science",
-      "Nama": "Ilmu Komputer"
+      "id": 19,
+      "kode_institusi": "052",
+      "nama": "Ilmu Komputer",
+      "nama_singkat": "CS",
+      "id_parent_institusi": 17
     },
     {
-      "ID Kelompok Institusi": 2,
-      "Nama Singkat": "CO",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 20,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "061",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 64,
-      "ID": 21,
-      "Nama En": "Communication",
-      "Nama": "Komunikasi"
+      "id": 20,
+      "kode_institusi": "06",
+      "nama": "Fakultas Komunikasi dan Diplomasi",
+      "nama_singkat": "FKD",
+      "id_parent_institusi": 1
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "GP",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 2,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "011",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 242,
-      "ID": 3,
-      "Nama En": "Geophysical Engineering",
-      "Nama": "Teknik Geofisika"
+      "id": 21,
+      "kode_institusi": "061",
+      "nama": "Komunikasi",
+      "nama_singkat": "CO",
+      "id_parent_institusi": 20
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "CE",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 6,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "023",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 192,
-      "ID": 9,
-      "Nama En": "Chemical Engineering",
-      "Nama": "Teknik Kimia"
+      "id": 22,
+      "kode_institusi": "062",
+      "nama": "Hubungan Internasional",
+      "nama_singkat": "IR",
+      "id_parent_institusi": 20
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "LG",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 6,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "024",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 241,
-      "ID": 10,
-      "Nama En": "Logistics Engineering",
-      "Nama": "Teknik Logistik"
+      "id": 23,
+      "kode_institusi": "WRAM",
+      "nama": "Akademik dan Kemahasiswaan",
+      "nama_singkat": null,
+      "id_parent_institusi": null
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "CV",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 14,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "041",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 89,
-      "ID": 15,
-      "Nama En": "Civil Engineering",
-      "Nama": "Teknik Sipil"
+      "id": 24,
+      "kode_institusi": "KSDO",
+      "nama": "Keuangan dan Sumber Daya Organisasi",
+      "nama_singkat": null,
+      "id_parent_institusi": null
     },
     {
-      "ID Kelompok Institusi": 1,
-      "Nama Singkat": "EV",
-      "Flag Aktif": true,
-      "ID Jenis Institusi": 3,
-      "ID Parent Institusi": 14,
-      "ID Program Pendidikan": 1,
-      "Kode Institusi": "042",
-      "ID Periode Akademik": 31,
-      "Status Akreditasi": null,
-      "ID Pejabat": 46,
-      "ID": 16,
-      "Nama En": "Environmental Engineering",
-      "Nama": "Teknik Lingkungan"
+      "id": 25,
+      "kode_institusi": "KPPM",
+      "nama": "Kemitraan Penelitian dan Pengabdian Masyarakat",
+      "nama_singkat": null,
+      "id_parent_institusi": null
+    }
+  ],
+  "periode_akademik": [
+    {
+      "id": 1,
+      "tahun": 2016,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2016/2017",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 7,
+      "tahun": 2015,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2015/2016",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 9,
+      "tahun": 2017,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2017/2018",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 8,
+      "tahun": 2016,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2016/2017",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 10,
+      "tahun": 2017,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2017/2018",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 11,
+      "tahun": 2016,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2016/2017",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 12,
+      "tahun": 2016,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2016/2017",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 17,
+      "tahun": 2017,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2017/2018",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 13,
+      "tahun": 2018,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2018/2019",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 18,
+      "tahun": 2017,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2017/2018",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 14,
+      "tahun": 2018,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2018/2019",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 19,
+      "tahun": 2018,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2018/2019",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 20,
+      "tahun": 2018,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2018/2019",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 15,
+      "tahun": 2019,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2019/2020",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 16,
+      "tahun": 2019,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2019/2020",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 21,
+      "tahun": 2019,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2019/2020",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 25,
+      "tahun": 2019,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2019/2020",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 22,
+      "tahun": 2020,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2020/2021",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 23,
+      "tahun": 2020,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2020/2021",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 27,
+      "tahun": 2020,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2020/2021",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 24,
+      "tahun": 2020,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2020/2021",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 26,
+      "tahun": 2021,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2021/2022",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 28,
+      "tahun": 2021,
+      "term": 2,
+      "flag_aktif": false,
+      "tahun_akademik": "2021/2022",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 29,
+      "tahun": 2021,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2021/2022",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 30,
+      "tahun": 2022,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2022/2023",
+      "deskripsi": "Ganjil"
+    },
+    {
+      "id": 31,
+      "tahun": 2022,
+      "term": 2,
+      "flag_aktif": true,
+      "tahun_akademik": "2022/2023",
+      "deskripsi": "Genap"
+    },
+    {
+      "id": 32,
+      "tahun": 2022,
+      "term": 3,
+      "flag_aktif": false,
+      "tahun_akademik": "2022/2023",
+      "deskripsi": "Pendek"
+    },
+    {
+      "id": 33,
+      "tahun": 2022,
+      "term": 4,
+      "flag_aktif": false,
+      "tahun_akademik": "2022/2023",
+      "deskripsi": "Khusus"
+    },
+    {
+      "id": 34,
+      "tahun": 2023,
+      "term": 1,
+      "flag_aktif": false,
+      "tahun_akademik": "2023/2024",
+      "deskripsi": "Ganjil"
     }
   ]
 }
